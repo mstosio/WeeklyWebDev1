@@ -71,13 +71,7 @@ h1 {
 	box-shadow: 0px 0px 0px 15px rgba(0,0,0,0.3);
 } 
 
-.box1 {
 
-}
-
-.box2 {
-
-}
 
 .box3 {
 	top: 0;
@@ -205,7 +199,7 @@ h1 {
 	float: right;
 	width: 40% !important;
 	position: relative;
-	bottom: 40px;
+	bottom: 50px;
 }
 
 .btn4 {
@@ -278,4 +272,19 @@ label {
 }
 
 
+@media screen and (max-width: 480px){
 
+	.box {
+		width: 90%;
+	}
+
+	.button {
+		width: 80%;
+	}
+
+	
+	.btn2 {
+		width: 150%;
+	}
+
+}
