@@ -274,6 +274,18 @@ label {
 
 @media screen and (max-width: 480px){
 
+	.container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo img {
+		width: 80%;
+		height: 80%;
+	}
+
+	}
+
 	.box {
 		width: 90%;
 	}
