@@ -63,6 +63,7 @@ h1 {
 
 
 .box {
+
 	background-color: rgb(244,244,244);
 	width: 380px;
 	height: 419px;
@@ -173,7 +174,7 @@ h1 {
   color: rgb(175, 175, 175);
 }
 
-.box button {
+/*.box button*/ .btn {
 	display: inherit;
 	width: 90%;
 	font-size: 24px;
@@ -284,19 +285,18 @@ label {
 		height: 80%;
 	}
 
+	.checkbox-wrapper {
+
 	}
 
 	.box {
-		width: 90%;
+		width: 75%;
 	}
 
-	.button {
-		width: 80%;
+	.btn {
+		font-size: 15px;
 	}
 
 	
-	.btn2 {
-		width: 150%;
-	}
 
 }
