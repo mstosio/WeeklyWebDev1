@@ -245,7 +245,7 @@ h1 {
     cursor: pointer;
 }
 
-.active{
+.radioStyle {
     outline: none;
     background: url(http://www.celtic1989.org/GreenSquare_small.jpg) no-repeat;
     background-size: 60%;

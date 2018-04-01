@@ -1,19 +1,8 @@
-var button = document.getElementsByClassName("radio");
+var button = document.querySelectorAll(".radio");
 
-// poprawka
-
-button[0].addEventListener("click", function(){
-	button[0].classList.toggle("radioStyle");
-
+for (var i = 0; i < button.length; i++){
+	button[i].addEventListener("click", function(ev){
+	console.log(ev.target);
+	ev.target.classList.toggle("radioStyle");
 });
-
-
-button[1].addEventListener("click", function(){
-	button[1].classList.toggle("radioStyle");
-
-});
-
-button[2].addEventListener("click", function(){
-	button[2].classList.toggle("radioStyle");
-
-});
+}
