@@ -63,7 +63,6 @@ h1 {
 
 
 .box {
-
 	background-color: rgb(244,244,244);
 	width: 380px;
 	height: 419px;
@@ -198,21 +197,21 @@ h1 {
 
 .btn2 {
 	float: right;
-	width: 40% !important;
+	width: 40%;
 	position: relative;
 	bottom: 50px;
 }
 
 .btn4 {
 	float: right;
-	width: 40% !important;
+	width: 40%;
 	position: relative;
 	top: 0;
 	bottom: 40px;
 }
 
 .btn3 {
-	width: 40% !important;
+	width: 40%;
 	position: relative;
 	top: 0;
 	bottom: 40px;
@@ -221,11 +220,11 @@ h1 {
 
 .btn5 {
 	float: right;
-	width: 40% !important;
+	width: 40%;
 	position: relative;
 	top: 0;
 	bottom: 40px;
-	background: linear-gradient(90deg, rgb(150, 0, 45), rgb(180, 0, 50)) !important;
+	background: linear-gradient(90deg, rgb(150, 0, 45), rgb(180, 0, 50));
 }
 
 
@@ -246,7 +245,7 @@ h1 {
     cursor: pointer;
 }
 
-.radioStyle {
+.active{
     outline: none;
     background: url(http://www.celtic1989.org/GreenSquare_small.jpg) no-repeat;
     background-size: 60%;
@@ -255,11 +254,10 @@ h1 {
 
  
 
-
 label {
 	position: relative;
 	bottom: 6px;
-	display: static;
+	/*display: static;*/
     font-size: 16px;
     font-family: "TitilliumText22L";
     color: rgb(175, 175, 175);
@@ -289,6 +287,8 @@ label {
 
 	}
 
+
+
 	.box {
 		width: 75%;
 	}
@@ -297,6 +297,10 @@ label {
 		font-size: 15px;
 	}
 
+	.label3, .radio3 {
+		margin: 0;
+		left: 20px;
+	}
 	
 
 }
