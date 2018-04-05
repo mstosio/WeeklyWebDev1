@@ -1,6 +1,8 @@
-* {
-	font-family: Arial;
+@font-face{
+	font-family: "titillium";
+	src: url('font/TitilliumText22L003.otf');
 }
+
 
 
 body {
@@ -33,15 +35,7 @@ body {
   align-items: center;
 }
 
-/*.header {
-	width: 100%;
-	height: 200px;
-}
 
-.logo {
-	width: 100%;
-	height: 200px;
-}*/
 
 .logo  {
 	display: flex;
@@ -53,7 +47,7 @@ body {
 
 h1 {
   font-size: 32px;
-  font-family: "TitilliumText22L";
+  font-family: "titillium";
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: left;
@@ -99,7 +93,7 @@ h1 {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	outline: none;
-	font-family: TilleniumText22L;
+	font-family: "titillium";
 	color: rgb(175, 175, 175);
 	background-color: rgb(246, 246, 246);
 	font-size: 16px;
@@ -138,6 +132,8 @@ h1 {
 	background-position: 10px 10px;
 }
 
+
+
 .textarea {
   display: block;
   height: 150px;
@@ -145,39 +141,42 @@ h1 {
   width: 90%;
   text-align: left;
   background-color: rgb(246, 246, 246);
+  color: rgb(175, 175, 175);
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
   margin: 25px auto;
   margin-top: 0;
-  font-family: TilleniumText22L;
+  font-family: "titillium";
   font-size: 16px;
   line-height: 1.2;
 }
 
 
 ::-webkit-input-placeholder { /* Chrome */
-  font-family: "TitilliumText22L";
+  font-family: "titillium";
   color: rgb(175, 175, 175);
 }
 :-ms-input-placeholder { /* IE 10+ */
-  font-family: "TitilliumText22L";
+  font-family: ""titillium";
   color: rgb(175, 175, 175);
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  font-family: "TitilliumText22L";
+  font-family: ""titillium";
   color: rgb(175, 175, 175);
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
-  font-family: "TitilliumText22L";
+  font-family: "titillium";
   color: rgb(175, 175, 175);
 }
+
+
 
 /*.box button*/ .btn {
 	display: inherit;
 	width: 90%;
 	font-size: 24px;
-  	font-family: "TitilliumText22L";
+  	font-family: "titillium";
   	line-height: 1.2;
   	text-align: center;
   	color: rgb(255, 255, 255);
@@ -259,7 +258,7 @@ label {
 	bottom: 6px;
 	/*display: static;*/
     font-size: 16px;
-    font-family: "TitilliumText22L";
+    font-family: "titillium";
     color: rgb(175, 175, 175);
     line-height: 1.2;
     text-align: left;
