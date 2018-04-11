@@ -152,6 +152,16 @@ h1 {
   line-height: 1.2;
 }
 
+datalist {
+   border: solid 1px blue; 
+   font-weight: bold; 
+}
+option { 
+   background-color:yellow; 
+   color: red;
+   font-style: italic;
+}
+
 
 ::-webkit-input-placeholder { /* Chrome */
   font-family: "titillium";
@@ -172,9 +182,9 @@ h1 {
 
 
 
-/*.box button*/ .btn {
+.btn {
 	display: inherit;
-	width: 90%;
+	width: 95%;
 	font-size: 24px;
   	font-family: "titillium";
   	line-height: 1.2;
@@ -224,11 +234,17 @@ h1 {
 	top: 0;
 	bottom: 40px;
 	background: linear-gradient(90deg, rgb(150, 0, 45), rgb(180, 0, 50));
+	border-color: rgb(255, 0, 0);
+
 }
 
 
-.box button:hover {
+.btn:hover {
 	background: linear-gradient(90deg, rgb(141, 170, 45), rgb(120, 184, 29));
+}
+
+.btn5:hover {
+	background: linear-gradient(90deg, rgba(255,0,0,1), rgba(255,25,50,1));
 }
 
 .box input[type=radio]{
@@ -266,7 +282,7 @@ label {
 
 .label3, .radio3 {
 	position: relative;
-	left: 50px;
+	left: 5px;
 }
 
 
@@ -281,11 +297,6 @@ label {
 		width: 80%;
 		height: 80%;
 	}
-
-	.checkbox-wrapper {
-
-	}
-
 
 
 	.box {
