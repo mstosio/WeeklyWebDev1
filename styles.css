@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
 	font-family: "titillium";
 	src: url('font/TitilliumText22L003.otf');
 }
@@ -8,36 +8,36 @@
 body {
 	background: url(images/background.jpg) no-repeat fixed center;
 	background-position: center top;
-    background-size: cover;
-    margin: 0px;
-    display: flex;
+	background-size: cover;
+	margin: 0px;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 
-} 
+}
 
 .container {
-  max-width: 1000px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex: 1;
-  margin-bottom: 100px;
+	max-width: 1000px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex: 1;
+	margin-bottom: 100px;
 }
 
 .column {
-  margin: 0 auto 0 auto;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  align-items: center;
+	margin: 0 auto 0 auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	align-items: center;
 }
 
 
 
-.logo  {
+.logo {
 	display: flex;
 	margin-top: 25px;
 	justify-content: center;
@@ -46,24 +46,24 @@ body {
 
 
 h1 {
-  font-size: 32px;
-  font-family: "titillium";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
-  text-align: left;
-  text-shadow: 0px 2px 2px rgba(43, 1, 0, 0.75);
+	font-size: 32px;
+	font-family: "titillium";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: left;
+	text-shadow: 0px 2px 2px rgba(43, 1, 0, 0.75);
 }
 
 
 
 .box {
-	background-color: rgb(244,244,244);
+	background-color: rgb(244, 244, 244);
 	width: 380px;
 	height: 419px;
 	padding: 20px;
 	border-radius: 5px;
-	box-shadow: 0px 0px 0px 15px rgba(0,0,0,0.3);
-} 
+	box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
 
 
 
@@ -97,37 +97,37 @@ h1 {
 	color: rgb(175, 175, 175);
 	background-color: rgb(246, 246, 246);
 	font-size: 16px;
-  	line-height: 1.2;
+	line-height: 1.2;
 
- }
+}
 
- .input3 {
- 	padding-top: 30px;
+.input3 {
+	padding-top: 30px;
 
- }
+}
 
- .input input[type=text]{
+.input input[type=text] {
 	background: url(icons/icon.png) no-repeat 15px;
 	background-position: 7px 8px;
 
 }
 
- .input input[type=password]{
+.input input[type=password] {
 	background: url(icons/password.png) no-repeat;
 	background-position: 7px 8px;
 }
 
- .input input[type=email]{
+.input input[type=email] {
 	background: url(icons/email.png) no-repeat;
 	background-position: 7px 10px;
 }
 
- .input input[list=location]{
+.input input[list=location] {
 	background: url(icons/location.png) no-repeat;
 	background-position: 10px 10px;
 }
 
- .input input[type=tel]{
+.input input[type=tel] {
 	background: url(icons/phonenumber.png) no-repeat;
 	background-position: 10px 10px;
 }
@@ -135,51 +135,59 @@ h1 {
 
 
 .textarea {
-  display: block;
-  height: 150px;
-  padding: 10px;
-  width: 90%;
-  max-width: 90%;
-  text-align: left;
-  background-color: rgb(246, 246, 246);
-  color: rgb(175, 175, 175);
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-  margin: 25px auto;
-  margin-top: 0;
-  font-family: "titillium";
-  font-size: 16px;
-  line-height: 1.2;
-  resize: vertical;
+	display: block;
+	height: 150px;
+	padding: 10px;
+	width: 90%;
+	max-width: 90%;
+	text-align: left;
+	background-color: rgb(246, 246, 246);
+	color: rgb(175, 175, 175);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	margin: 25px auto;
+	margin-top: 0;
+	font-family: "titillium";
+	font-size: 16px;
+	line-height: 1.2;
+	resize: vertical;
 }
 
 datalist {
-   border: solid 1px blue; 
-   font-weight: bold; 
+	border: solid 1px blue;
+	font-weight: bold;
 }
-option { 
-   background-color:yellow; 
-   color: red;
-   font-style: italic;
+
+option {
+	background-color: yellow;
+	color: red;
+	font-style: italic;
 }
 
 
-::-webkit-input-placeholder { /* Chrome */
-  font-family: "titillium";
-  color: rgb(175, 175, 175);
+::-webkit-input-placeholder {
+	/* Chrome */
+	font-family: "titillium";
+	color: rgb(175, 175, 175);
 }
-:-ms-input-placeholder { /* IE 10+ */
-  font-family: ""titillium";
-  color: rgb(175, 175, 175);
+
+:-ms-input-placeholder {
+	/* IE 10+ */
+	font-family: ""titillium";
+color: rgb(175, 175, 175);
 }
-::-moz-placeholder { /* Firefox 19+ */
-  font-family: ""titillium";
-  color: rgb(175, 175, 175);
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	font-family: ""titillium";
+color: rgb(175, 175, 175);
 }
-:-moz-placeholder { /* Firefox 4 - 18 */
-  font-family: "titillium";
-  color: rgb(175, 175, 175);
+
+:-moz-placeholder {
+	/* Firefox 4 - 18 */
+	font-family: "titillium";
+	color: rgb(175, 175, 175);
 }
 
 
@@ -188,22 +196,22 @@ option {
 	display: inherit;
 	width: 95%;
 	font-size: 24px;
-  	font-family: "titillium";
-  	line-height: 1.2;
-  	text-align: center;
-  	color: rgb(255, 255, 255);
-  	text-shadow: 0.559px 0.829px 0px rgba(81, 133, 14, 0.004);
+	font-family: "titillium";
+	line-height: 1.2;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-shadow: 0.559px 0.829px 0px rgba(81, 133, 14, 0.004);
 	margin: 10px auto;
 	padding: 10px 10px 10px 10px;
-	outline: none;	
+	outline: none;
 	cursor: pointer;
 	border-style: solid;
 	border-width: 1px;
- 	border-color: rgb(59, 154, 0);
-    border-radius: 3px;
+	border-color: rgb(59, 154, 0);
+	border-radius: 3px;
 	background: linear-gradient(90deg, rgb(141, 201, 45), rgb(120, 184, 29));
-	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 1px 1px 0px rgba(255, 255, 255, 0.41);
-	  
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004), inset 0px 1px 1px 0px rgba(255, 255, 255, 0.41);
+
 }
 
 .btn2 {
@@ -246,49 +254,50 @@ option {
 }
 
 .btn5:hover {
-	background: linear-gradient(90deg, rgba(255,0,0,1), rgba(255,25,50,1));
+	background: linear-gradient(90deg, rgba(255, 0, 0, 1), rgba(255, 25, 50, 1));
 }
 
-.box input[type=radio]{
- 	-webkit-appearance: none;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(198, 198, 198);
-    border-radius: 3px;
-    outline: none;
-    box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 0px 0px 1px rgba(255, 255, 255, 0.24);
-    width: 21px;
-    height: 22px;
-    cursor: pointer;
+.box input[type=radio] {
+	-webkit-appearance: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(198, 198, 198);
+	border-radius: 3px;
+	outline: none;
+	box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.004), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.24);
+	width: 21px;
+	height: 22px;
+	cursor: pointer;
 }
 
 .radioStyle {
-    outline: none;
-    background: url(http://www.celtic1989.org/GreenSquare_small.jpg) no-repeat;
-    background-size: 60%;
+	outline: none;
+	background: url(http://www.celtic1989.org/GreenSquare_small.jpg) no-repeat;
+	background-size: 60%;
 	background-position: center;
 }
 
- 
+
 
 label {
 	position: relative;
 	bottom: 6px;
 	/*display: static;*/
-    font-size: 16px;
-    font-family: "titillium";
-    color: rgb(175, 175, 175);
-    line-height: 1.2;
-    text-align: left;
- }
+	font-size: 16px;
+	font-family: "titillium";
+	color: rgb(175, 175, 175);
+	line-height: 1.2;
+	text-align: left;
+}
 
-.label3, .radio3 {
+.label3,
+.radio3 {
 	position: relative;
 	left: 5px;
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
 
 	.container {
 		display: flex;
@@ -309,10 +318,11 @@ label {
 		font-size: 15px;
 	}
 
-	.label3, .radio3 {
+	.label3,
+	.radio3 {
 		margin: 0;
 		left: 20px;
 	}
-	
+
 
 }
